@@ -1,6 +1,7 @@
 const express = require('express')
 const app=express()
 const morgan=require('morgan')
+const mysql=require('mysql')
 
 app.use(morgan('short'))
 
